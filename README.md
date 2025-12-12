@@ -66,7 +66,7 @@ Two time-stepping schemes are implemented and compared:
 
 - Forward Euler becomes unstable when the time step exceeds a mesh-dependent stability limit.
 - Refining the spatial mesh tightens the explicit stability constraint.
-- Backward Euler remains stable for all time steps but becomes overly diffusive when \(\Delta t\) is large relative to \(h\).
+- Backward Euler remains stable for all time steps but becomes overly diffusive when $\Delta t$ is large relative to $h$.
 - Numerical solutions are compared directly with the analytic solution to illustrate accuracy and stability effects.
 
 Representative plots include:
