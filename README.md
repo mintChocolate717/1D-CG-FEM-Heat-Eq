@@ -14,28 +14,28 @@ The project was developed as a final project for a Computational Engineering cou
 
 We consider the 1D heat equation on the unit domain:
 
-\[
+$$
 \frac{\partial u}{\partial t} - \frac{\partial^2 u}{\partial x^2} = f(x,t),
 \quad x \in [0,1], \; t \in [0,1]
-\]
+$$
 
 with Dirichlet boundary conditions
 
-\[
+$$
 u(0,t) = 0, \quad u(1,t) = 0
-\]
+$$
 
 and initial condition
 
-\[
+$$
 u(x,0) = \sin(\pi x).
-\]
+$$
 
 The forcing term is chosen so that the **analytic solution** is
 
-\[
+$$
 u(x,t) = e^{-t}\sin(\pi x),
-\]
+$$
 
 which enables direct validation of the numerical method.
 
